@@ -33,11 +33,8 @@ By dividing 64 bits into 21 independent "bubbles" (3 bits each), we implemented 
 - **Result**: Immediate restoration of data integrity upon detection of bit-flips in a single clock cycle.
 - **Observation**: The "Intent" of the data remains stable despite physical corruption of its parts.
 
-### 3.2. Pietro's Sieve (v9)
-A parallel search PoC was implemented to search for 64 independent targets in a 10,000-entry stream.
-- **Scalar Approach**: 640,000 operations.
-- **Swarm Approach**: 10,000 operations.
-- **Performance Gain**: 64x theoretical speedup using standard hardware primitives.
+### 3.3. Swarm Biometrics and Mass Identification (v11)
+Applied the swarm principle to complex pattern matching. Beyond facial recognition, this model scales to industrial quality control (Automotive), telecommunications (filtering millions of IDs), and urban logistics (Real-time GIS mapping and traffic enforcement). By encoding 64 independent verification segments into a single register, we achieve a throughput physically unattainable by sequential logic.
 
 ## 4. Discussion: The Impact on Real-Time Systems
 
